@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(254, 232, 156);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+p {
+    display: inline;
+    margin: 0;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+h2 {
+    color: indigo;
+}
+.re {
+    color: coral;
+    font-weight: 800;
+}
+li {
+    font-size: medium;
+    color: darkcyan;
+}
+.we {
+    color: rgb(184, 12, 113);
+}
+h3:link h3:visited {
+    color: rgb(188, 159, 191);
+    text-decoration: none;
+}
+h3:hover {
+    text-decoration: underline;
+}
+img {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.2);
+}
